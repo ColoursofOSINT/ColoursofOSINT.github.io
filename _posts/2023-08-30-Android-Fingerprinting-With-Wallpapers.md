@@ -20,4 +20,7 @@ For each of the three most common hues, there are 256 combinations for each RGB 
 > By keeping the default wallpaper, or setting it to completely black, one can defeat theis type of fingerprinting.
 {: .prompt-info }
 
+> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
+{: .prompt-tip }
+
 [^footnote]: https://developer.android.com/about/versions/oreo/android-8.1
