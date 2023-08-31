@@ -22,7 +22,8 @@ In order to shut off bluetooth on a Mac after 15 mins of disconnection, the foll
 _Code Planning for Shutoff_
 
 # Mac OS Script
-```
+```bash
+
 #!/bin/bash
 
 # Check if Bluetooth is powered on
