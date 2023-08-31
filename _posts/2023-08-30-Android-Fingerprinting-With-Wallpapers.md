@@ -17,6 +17,7 @@ Fortunately, in devices running Android 8.1 and later, the call now requires the
 # The Math
 For each of the three most common hues, there are 256 combinations for each RGB value, for a total of 2^24 combinations per color. With three colors per image, there are are 2^72 possible values, for maximum of 2^144 combinations (with 2 different wallpapers). This information is provided as 144 bits, which can be used as a direct identifer, or inputed to create a SHA-256 hash, as in the case of the trial application created by Fingerprint. The application compares the hashes to other submitted hashes to determine the uniqueness or the device based solely on the wallpaper. Thankfully, such fingerprinting is defeatable - as explained by Fingerprint – by keeping the default wallpaper, or setting it to completely black (as in the case of GrapheneOS) to provide anonymity. You can try the application and read more [here](https://fingerprint.com/blog/how-android-wallpaper-images-threaten-privacy/).
 
-> By keeping the default wallpaper, or setting it to completely black, one can defeat theis type of fingerprinting.  {: .prompt-info }
+> By keeping the default wallpaper, or setting it to completely black, one can defeat theis type of fingerprinting.
+{: .prompt-info }
 
 [^footnote]: https://developer.android.com/about/versions/oreo/android-8.1
