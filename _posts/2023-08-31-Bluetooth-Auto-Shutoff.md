@@ -7,18 +7,18 @@ tags: [macos, privacy, bluetooth]     # TAG names should always be lowercase
 
 # Bluetooth Exposure
 
-Bluetooth is useful for quick connections to other devices, whether for file sharing, audio, or imput control. However, because Bluetooth beacons emit a uniquely identifiable signal, they can be used for short range tracking. [^Footnote-1] For example, a mall might track the movement of its patrons as they move through stores. This technology was used for COVID tracking, and although it may be useful for some, it's also a privacy risk. 
+Bluetooth is useful for quick connections to other devices, whether for file sharing, audio, or imput control. However, because Bluetooth beacons emit a uniquely identifiable signal, they can be used for short range tracking[^Footnote-1]. For example, a mall might track the movement of its patrons as they move through stores. This technology was used for COVID tracking, and although it may be useful for some, it's also a privacy risk. 
 
 # Apple Devices
 
-Apple devices are more vulerable to this type of tracking as they have stonger broadcasts and even manually turning off Bluetooth does not shut off beaconing. [^Footnote-2] Some Android phones also allow users to automaticaly shut of bluetooth after an ajustable time spent disconnected. 
+Apple devices are more vulerable to this type of tracking as they have stonger broadcasts and even manually turning off Bluetooth does not shut off beaconing[^Footnote-2]. Some Android phones also allow users to automaticaly shut of bluetooth after an ajustable time spent disconnected. 
 
 # Mac OS Goals
 
 In order to shut off bluetooth on a Mac after 15 mins of disconnection, the follow format may be used. 
 
-![Desktop View](https://raw.githubusercontent.com/ColoursofOSINT/ColoursofOSINT.github.io/master/assets/img/images/Bluetooth.png){: width="972" height="589" }
-_Full screen width and center alignment_
+![Desktop View](https://raw.githubusercontent.com/ColoursofOSINT/ColoursofOSINT.github.io/master/assets/img/images/Bluetooth.png)
+_Code Planning for Shutoff_
 
 # Mac OS Script
 ```
