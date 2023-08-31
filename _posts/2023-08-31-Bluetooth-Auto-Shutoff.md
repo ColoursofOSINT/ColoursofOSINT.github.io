@@ -58,5 +58,10 @@ fi
 > LaunchAgents can also be for the scheduling of bluetooth shutoff.
 {: .prompt-info } 
 
+```
+crontab -e
+30 * * * * cd /Applications/bluetooth.sh
+```
+
 [^Footnote-1]: https://www.theregister.com/2021/10/22/bluetooth_tracking_device/
 [^Footnote-2]: https://www.tomsguide.com/news/bluetooth-device-tracking
