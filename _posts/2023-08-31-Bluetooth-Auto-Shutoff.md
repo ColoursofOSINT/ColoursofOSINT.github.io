@@ -51,6 +51,8 @@ else
 fi
 
 ```
+{: .nolineno }
+
 # Mac OS Scheduling 
 > LaunchAgents can also be for the Scheduling
 {: .prompt-info } 
