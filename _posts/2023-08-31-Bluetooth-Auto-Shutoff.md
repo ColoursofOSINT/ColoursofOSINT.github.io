@@ -17,7 +17,9 @@ Apple devices are more vulerable to this type of tracking as they have stonger b
 
 In order to shut off bluetooth on a Mac after 15 mins of disconnection, the follow format may be used. 
 
-![Desktop View](https://raw.githubusercontent.com/ColoursofOSINT/ColoursofOSINT.github.io/master/assets/img/images/Bluetooth.png)
+![Dark View](https://raw.githubusercontent.com/ColoursofOSINT/ColoursofOSINT.github.io/master/assets/img/images/Bluetooth.png){: .dark }
+_Code Planning for Shutoff_
+![Light View](https://raw.githubusercontent.com/ColoursofOSINT/ColoursofOSINT.github.io/master/assets/img/images/Bluetooth.drawio.png){: .light }
 _Code Planning for Shutoff_
 
 # Mac OS Script
