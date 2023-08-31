@@ -56,11 +56,17 @@ fi
 
 # Mac OS Scheduling 
 > LaunchAgents can also be for the scheduling of bluetooth shutoff.
-{: .prompt-info } 
+{: .prompt-info }
+
+To run every 30 minutes using crontab, run: 
 
 ```
 crontab -e
-30 * * * * cd /Applications/bluetooth.sh
+```
+Then activate the file every 30 minutes:
+
+```
+30 * * * * cd /path/to/file
 ```
 
 [^Footnote-1]: https://www.theregister.com/2021/10/22/bluetooth_tracking_device/
