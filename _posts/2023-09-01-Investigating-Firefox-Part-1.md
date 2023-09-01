@@ -42,7 +42,7 @@ This loads an analytics javascript, which can collect the IP Addresses, user age
 
 [Read Part 2 here.](https://www.coloursofosint.com/posts/Investigating-Firefox-Part-2/)
 
-[^footnote]: https://palant.info/2023/05/31/more-malicious-extensions-in-chrome-web-store/
-[^footnote2]: https://news.ycombinator.com/item?id=37137552
-[^footnote3]: https://extensionworkshop.com/documentation/publish/recommended-extensions/
-[^footnote4]: https://addons.mozilla.org/en-US/firefox/addon/giphy-for-firefox/
+[^footnote]: [https://palant.info/2023/05/31/more-malicious-extensions-in-chrome-web-store/](https://palant.info/2023/05/31/more-malicious-extensions-in-chrome-web-store/)
+[^footnote2]: [https://news.ycombinator.com/item?id=37137552](https://news.ycombinator.com/item?id=37137552)
+[^footnote3]: [https://extensionworkshop.com/documentation/publish/recommended-extensions/](https://extensionworkshop.com/documentation/publish/recommended-extensions/)
+[^footnote4]: [https://addons.mozilla.org/en-US/firefox/addon/giphy-for-firefox/](https://addons.mozilla.org/en-US/firefox/addon/giphy-for-firefox/)
