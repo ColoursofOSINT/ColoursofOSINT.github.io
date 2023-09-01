@@ -32,5 +32,5 @@ This information is provided as 144 bits, which can be used as a direct identife
 > By keeping the default wallpaper or setting it to completely black, one can defeat this type of fingerprinting.
 {: .prompt-info }
 
-[^footnote]: [https://developer.android.com/about/versions/oreo/android-8.1](https://developer.android.com/about/versions/oreo/android-8.1#wallpaper)https://developer.android.com/about/versions/oreo/android-8.1#wallpaper](https://developer.android.com/about/versions/oreo/android-8.1](https://developer.android.com/about/versions/oreo/android-8.1#wallpaper)https://developer.android.com/about/versions/oreo/android-8.1#wallpaper)
+[^footnote]: [https://developer.android.com/about/versions/oreo/android-8.1#wallpaper](https://developer.android.com/about/versions/oreo/android-8.1#wallpaper)
 [^footnote-2]: [https://developer.android.com/reference/android/app/WallpaperManager#getDrawable()](https://developer.android.com/reference/android/app/WallpaperManager#getDrawable)
