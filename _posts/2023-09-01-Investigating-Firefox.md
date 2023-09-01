@@ -62,7 +62,7 @@ function we(e, t, n, i) {
     }, function() {});
 
 ```
-However, with Sentry, more infomation could be collected, although there is no evidence to siggest this is ongoing 
+However, with Sentry, more infomation could be collected, although there is no evidence to suggest this is ongoing.
 ```
 lC({
   Vue: o["default"],
