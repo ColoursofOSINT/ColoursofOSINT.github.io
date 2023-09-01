@@ -1,6 +1,6 @@
 ---
 title: Investigating “Recommended Extensions” in Firefox
-date: 2023-09-01 12:00:00 +0800
+date: 2023-09-04 12:00:00 +0800
 categories: [Browser]
 tags: [firefox, privacy]     # TAG names should always be lowercase
 toc: true
@@ -20,7 +20,7 @@ Mozilla’s “Recommended Extensions” program claims to certify that select e
 
 Seems fair, right? Well, a quick look into some of Mozilla’s “Recommended Extensions” finds that many extensions are not following these rules, and that Mozilla has failed to catch these violations. Lets take a look at some examples.
 
-# Giphy [Version 3.1] – 7,000 users https://github.com/ColoursofOSINT/extensions-investigation/blob/main/Giphy.md
+# Giphy [Version 3.1] – 7,000 users
 
 This extension – produced by giphy.com – is used to load GIFs which can be sent in “emails, tweets and more”.[^footnote4] Users can search for a GIF and then drag and drop it into the message. Despite not being updated since 2021, it is still a recommended extension. Furthermore, although it has no privacy policy, which suggests that the extension author does not collect analytics, the extension includes an analytics.ts file, which when decompiled, yields: 
 
@@ -40,6 +40,10 @@ This extension – produced by giphy.com – is used to load GIFs which can be s
 ```
 
 This loads an analytics javascript, which can collect the IP Addresses, user agents, page views, user engagement (time spent/website, interactions,) events (button clicks, video views) and referral sources of users.
+
+#  PocketTube: Youtube Subscription Manager [Version 15.6.4] - 17,000 users
+
+PocketTube is an extenison used to manage group subscription 
 
 [^footnote]: https://palant.info/2023/05/31/more-malicious-extensions-in-chrome-web-store/
 [^footnote2]: https://news.ycombinator.com/item?id=37137552
