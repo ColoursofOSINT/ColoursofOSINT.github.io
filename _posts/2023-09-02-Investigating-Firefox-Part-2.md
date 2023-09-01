@@ -55,4 +55,4 @@ lC({
 
 [Read Part 1 here.](https://www.coloursofosint.com/posts/Investigating-Firefox-Part-1/)
 
-[^footnote1]: https://addons.mozilla.org/en-US/firefox/addon/youtube-subscription-groups/privacy/
+[^footnote1]: [https://addons.mozilla.org/en-US/firefox/addon/youtube-subscription-groups/privacy/](https://addons.mozilla.org/en-US/firefox/addon/youtube-subscription-groups/privacy/)
