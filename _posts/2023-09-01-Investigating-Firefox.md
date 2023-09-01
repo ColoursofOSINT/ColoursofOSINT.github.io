@@ -43,17 +43,7 @@ This loads an analytics javascript, which can collect the IP Addresses, user age
 
 #  PocketTube: Youtube Subscription Manager [Version 15.6.4] - 17,000 users
 
-PocketTube is an extension used to manage group subscriptions on youtube. As stated in its privacy policy, it that it uses Mixpixel for analytics tracking, however, the policy makes no mention of Sentry, which it also uses. [^footnote5] There are also many analytics, but they seem less geared to data collection and more towards premium feature payment. However, a larger issue is the promotion of referral 
-
-```
-var be = "https://api.mixpanel.com";
-var ke = {};
-
-function we(e, t, n, i) {
-  ke.token = e;
-  ke.distinct_id = t;
-  ke.lang = n;
-```
+PocketTube is an extension used to manage group subscriptions on youtube. As stated in its privacy policy, it that it uses Mixpixel for analytics tracking, however, the policy makes no mention of Sentry, which it also uses. [^footnote5] There are also many analytics, but they seem less geared to data collection and more towards premium feature payment. 
 
 ```
 var be = "https://api.mixpanel.com";
@@ -71,57 +61,13 @@ lC({
   dsn: "https://0038060f1bc6428da18206617e79945a@o416359.ingest.sentry.io/5310804",
   integrations: [
     new a.BrowserTracing({
-      routingInstrumentation: cC(yS),
-      tracingOrigins: ["localhost", /^\//],
-    }),
-  ],
-  tracesSampleRate: 0,
-});
 
 ```
 ```
-chrome.contextMenus.onClicked.addListener(function(e) {
-  if (e.menuItemId === "1111") {
-    chrome.tabs.create({
-      url: "https://www.patreon.com/ysub?utm_source=context"
-    }, function() {});
-  } else if (e.menuItemId === "1112") {
-    chrome.tabs.create({
-      url: "https://www.buymeacoffee.com/ysub?utm_source=context"
-    }, function() {});
-  } else if (e.menuItemId === "1113") {
-    chrome.tabs.create({
-      url: "https://www.reddit.com/r/pockettube/"
-    }, function() {});
-  } else if (e.menuItemId === "1114") {
-    chrome.tabs.create({
-      url: cu()
-    }, function() {});
   } else if (e.menuItemId === "1115") {
     chrome.tabs.create({
       url: "https://www.youtube.com/channel/UCTVgSQTwWpHWIXC6EOh8vWw?sub_confirmation=1"
     }, function() {});
-  } else if (e.menuItemId === "1116") {
-    chrome.tabs.create({
-      url: "https://translations.yousub.info/"
-    }, function() {});
-  }
-});
-
-if (Zl() && chrome.notifications) {
-  Gl();
-} else {
-  chrome.permissions.onAdded.addListener(function(e) {
-    if (e.permissions && e.permissions.indexOf("notifications") === -1) {
-      Gl();
-    }
-  });
-}
-
-r(u().mark(function() {
-  // ... Your code here
-}));
-
 
 ```
 
