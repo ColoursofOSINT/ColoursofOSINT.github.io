@@ -58,9 +58,7 @@ fi
 # Mac OS Scheduling 
 > LaunchAgents can also used be for the scheduling of bluetooth shutoff. They are more complicated, thus use cron jobs.
 {: .prompt-info }
-
-To run every 30 minutes using crontab, run: 
-
+Open cron editor with:
 ```
 crontab -e
 ```
