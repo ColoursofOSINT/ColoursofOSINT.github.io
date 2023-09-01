@@ -1,6 +1,6 @@
 ---
 title: Investigating “Recommended Extensions” in Firefox
-date: 2023-09-04 12:00:00 +0800
+date: 2023-09-01 12:00:00 +0800
 categories: [Browser]
 tags: [firefox, privacy]     # TAG names should always be lowercase
 toc: true
