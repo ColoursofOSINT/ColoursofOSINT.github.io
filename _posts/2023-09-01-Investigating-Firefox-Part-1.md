@@ -1,11 +1,12 @@
 ---
-title: Investigating “Recommended Extensions” in Firefox: Part 1
+title: Investigating “Recommended Extensions” in Firefox -  Part 1
 date: 2023-09-01 12:00:00 +0800
 categories: [Browser]
 tags: [firefox, privacy]     # TAG names should always be lowercase
 toc: true
 math: true
 ---
+
 # Introduction
 Recently, investigations of Google Chrome extensions have uncovered malware, spyware and adware in dozens of popular extensions used by millions of users.[^footnote] Although there was considerable criticism of Google’s review process for these extensions, I did not observe much curiosity directed towards the state of Firefox extensions. As a devout Firefox user, albeit one who only uses open-source extensions, I was inspired by a comment on YCombinator (Hacker News) by Krono to look into some popular extensions to compare Mozilla against Google.[^footnote2]
 	
