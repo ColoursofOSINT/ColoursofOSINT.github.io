@@ -83,5 +83,5 @@ The response should be:
 30 * * * * /path/to/file
 ```
 
-[^Footnote-1]: https://www.theregister.com/2021/10/22/bluetooth_tracking_device/
-[^Footnote-2]: https://www.tomsguide.com/news/bluetooth-device-tracking
+[^Footnote-1]: [https://www.theregister.com/2021/10/22/bluetooth_tracking_device/]( https://www.theregister.com/2021/10/22/bluetooth_tracking_device/)
+[^Footnote-2]: [https://www.tomsguide.com/news/bluetooth-device-tracking](https://www.tomsguide.com/news/bluetooth-device-tracking)
