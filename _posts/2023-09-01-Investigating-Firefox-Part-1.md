@@ -1,5 +1,5 @@
 ---
-title: Investigating “Recommended Extensions” in Firefox
+title: Investigating “Recommended Extensions” in Firefox: Part 1
 date: 2023-09-01 12:00:00 +0800
 categories: [Browser]
 tags: [firefox, privacy]     # TAG names should always be lowercase
@@ -40,54 +40,7 @@ This extension – produced by giphy.com – is used to load GIFs which can be s
 
 This loads an analytics javascript, which can collect the IP Addresses, user agents, page views, user engagement (time spent/website, interactions,) events (button clicks, video views) and referral sources of users. There is no option to opt-out of this, or even an indication that such information collection is ongoing. This extensions appears to violate most of the recommended extension rules.
 
-#  PocketTube: Youtube Subscription Manager [Version 15.6.4] - 17,000 users
-
-PocketTube is an extension used to manage group subscriptions on youtube. As stated in its privacy policy, it that it uses Mixpixel for analytics tracking, however, the policy makes no mention of Sentry, which it also uses. [^footnote5] There are also many analytics, but they seem less geared to data collection and more towards premium feature payment. Moreover, there may be more analytics, but with more then 8 MB of javascript code, finding such code is difficult.
-
-```
-var be = "https://api.mixpanel.com";
-var ke = {};
-
-function we(e, t, n, i) {
-  ke.token = e;
-  ke.distinct_id = t;
-  ke.lang = n;
-```
-
-```
-  } else if (e.menuItemId === "1115") {
-    chrome.tabs.create({
-      url: "https://www.youtube.com/channel/UCTVgSQTwWpHWIXC6EOh8vWw?sub_confirmation=1"
-    }, function() {});
-
-```
-However, with Sentry, more infomation could be collected, although there is no evidence to suggest this is ongoing.
-```
-lC({
-  Vue: o["default"],
-  dsn: "https://0038060f1bc6428da18206617e79945a@o416359.ingest.sentry.io/5310804",
-  integrations: [
-    new a.BrowserTracing({
-
-```
-```
-{
-  "sdk": {
-    "name": "sentry.javascript.vue",
-    "packages": [
-      {
-        "name": "npm:@sentry/vue",
-        "version": "wS"
-      }
-    ]
-  }
-}
-
-```
-
-
 [^footnote]: https://palant.info/2023/05/31/more-malicious-extensions-in-chrome-web-store/
 [^footnote2]: https://news.ycombinator.com/item?id=37137552
 [^footnote3]: https://extensionworkshop.com/documentation/publish/recommended-extensions/
 [^footnote4]: https://addons.mozilla.org/en-US/firefox/addon/giphy-for-firefox/
-[^footnote5]: https://addons.mozilla.org/en-US/firefox/addon/youtube-subscription-groups/privacy/
