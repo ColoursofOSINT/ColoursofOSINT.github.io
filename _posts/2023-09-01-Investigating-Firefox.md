@@ -43,9 +43,34 @@ This loads an analytics javascript, which can collect the IP Addresses, user age
 
 #  PocketTube: Youtube Subscription Manager [Version 15.6.4] - 17,000 users
 
-PocketTube is an extenison used to manage group subscription 
+PocketTube is an extension used to manage group subscriptions on youtube. As stated in its privacy policy, it that it uses Mixpixel for analytics tracking, however, the policy makes no mention of Sentry, which it also uses. [^footnote5]
 
+```
+var be = "https://api.mixpanel.com";
+var ke = {};
+
+function we(e, t, n, i) {
+  ke.token = e;
+  ke.distinct_id = t;
+  ke.lang = n;
+```
+
+```
+lC({
+  Vue: o["default"],
+  dsn: "https://0038060f1bc6428da18206617e79945a@o416359.ingest.sentry.io/5310804",
+  integrations: [
+    new a.BrowserTracing({
+      routingInstrumentation: cC(yS),
+      tracingOrigins: ["localhost", /^\//],
+    }),
+  ],
+  tracesSampleRate: 0,
+});
+
+```
 [^footnote]: https://palant.info/2023/05/31/more-malicious-extensions-in-chrome-web-store/
 [^footnote2]: https://news.ycombinator.com/item?id=37137552
 [^footnote3]: https://extensionworkshop.com/documentation/publish/recommended-extensions/
 [^footnote4]: https://addons.mozilla.org/en-US/firefox/addon/giphy-for-firefox/
+[^footnote5]: https://addons.mozilla.org/en-US/firefox/addon/youtube-subscription-groups/privacy/
