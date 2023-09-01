@@ -7,7 +7,6 @@ toc: true
 math: true
 ---
 # Introduction
-opt out
 Recently, investigations of Google Chrome extensions have uncovered malware, spyware and adware in dozens of popular extensions used by millions of users.[^footnote] Although there was considerable criticism of Google’s review process for these extensions, I did not observe much curiosity directed towards the state of Firefox extensions. As a devout Firefox user, albeit one who only uses open-source extensions, I was inspired by a comment on YCombinator (Hacker News) by Krono to look into some popular extensions to compare Mozilla against Google.[^footnote2]
 	
 # Recommended Extensions
@@ -39,7 +38,7 @@ This extension – produced by giphy.com – is used to load GIFs which can be s
 })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 ```
 
-This loads an analytics javascript, which can collect the IP Addresses, user agents, page views, user engagement (time spent/website, interactions,) events (button clicks, video views) and referral sources of users.
+This loads an analytics javascript, which can collect the IP Addresses, user agents, page views, user engagement (time spent/website, interactions,) events (button clicks, video views) and referral sources of users. There is no option to opt-out of this, or even an indication that such information collection is ongoing. This extensions appears to violate most of the recommended extension rules.
 
 #  PocketTube: Youtube Subscription Manager [Version 15.6.4] - 17,000 users
 
@@ -85,6 +84,8 @@ lC({
 }
 
 ```
+
+
 [^footnote]: https://palant.info/2023/05/31/more-malicious-extensions-in-chrome-web-store/
 [^footnote2]: https://news.ycombinator.com/item?id=37137552
 [^footnote3]: https://extensionworkshop.com/documentation/publish/recommended-extensions/
