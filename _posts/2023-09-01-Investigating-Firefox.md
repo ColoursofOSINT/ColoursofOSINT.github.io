@@ -43,7 +43,7 @@ This loads an analytics javascript, which can collect the IP Addresses, user age
 
 #  PocketTube: Youtube Subscription Manager [Version 15.6.4] - 17,000 users
 
-PocketTube is an extension used to manage group subscriptions on youtube. As stated in its privacy policy, it that it uses Mixpixel for analytics tracking, however, the policy makes no mention of Sentry, which it also uses. [^footnote5] There are also many analytics, but they seem less geared to data collection and more towards premium feature payment. 
+PocketTube is an extension used to manage group subscriptions on youtube. As stated in its privacy policy, it that it uses Mixpixel for analytics tracking, however, the policy makes no mention of Sentry, which it also uses. [^footnote5] There are also many analytics, but they seem less geared to data collection and more towards premium feature payment. Moreover, there may be more analytics, but with more then 8 MB of javascript code, finding such code is difficult.
 
 ```
 var be = "https://api.mixpanel.com";
@@ -56,6 +56,14 @@ function we(e, t, n, i) {
 ```
 
 ```
+  } else if (e.menuItemId === "1115") {
+    chrome.tabs.create({
+      url: "https://www.youtube.com/channel/UCTVgSQTwWpHWIXC6EOh8vWw?sub_confirmation=1"
+    }, function() {});
+
+```
+However, with Sentry, more infomation could be collected, although there is no evidence to siggest this is ongoing 
+```
 lC({
   Vue: o["default"],
   dsn: "https://0038060f1bc6428da18206617e79945a@o416359.ingest.sentry.io/5310804",
@@ -64,13 +72,19 @@ lC({
 
 ```
 ```
-  } else if (e.menuItemId === "1115") {
-    chrome.tabs.create({
-      url: "https://www.youtube.com/channel/UCTVgSQTwWpHWIXC6EOh8vWw?sub_confirmation=1"
-    }, function() {});
+{
+  "sdk": {
+    "name": "sentry.javascript.vue",
+    "packages": [
+      {
+        "name": "npm:@sentry/vue",
+        "version": "wS"
+      }
+    ]
+  }
+}
 
 ```
-
 [^footnote]: https://palant.info/2023/05/31/more-malicious-extensions-in-chrome-web-store/
 [^footnote2]: https://news.ycombinator.com/item?id=37137552
 [^footnote3]: https://extensionworkshop.com/documentation/publish/recommended-extensions/
