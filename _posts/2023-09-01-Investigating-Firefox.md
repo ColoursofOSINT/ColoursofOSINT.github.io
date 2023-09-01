@@ -122,7 +122,7 @@ r(u().mark(function() {
   // ... Your code here
 }));
 
-This code creates a context menu in a more readable format. It listens for menu item clicks and opens specific URLs based on the clicked menu item. It also checks for notifications support and handles permissions.
+
 ```
 
 [^footnote]: https://palant.info/2023/05/31/more-malicious-extensions-in-chrome-web-store/
