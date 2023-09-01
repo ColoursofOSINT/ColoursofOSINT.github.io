@@ -64,10 +64,23 @@ To run every 30 minutes using crontab, run:
 ```
 crontab -e
 ```
-Then activate the file every 30 minutes:
+Then to activate the file every 30 minutes, schedule the following:
 
 ```
-30 * * * * cd /path/to/file
+30 * * * * /path/to/file
+```
+
+To exit and save the cron editor, press 'esc', then ':', then 'w' and then 'q'. Hit 'enter' or 'return' and check that the crontab is running with:
+
+
+```
+crontab -l
+```
+
+The response should be: 
+
+```
+30 * * * * /path/to/file
 ```
 
 [^Footnote-1]: https://www.theregister.com/2021/10/22/bluetooth_tracking_device/
