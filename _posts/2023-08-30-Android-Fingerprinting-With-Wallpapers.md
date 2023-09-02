@@ -18,7 +18,7 @@ Fortunately, in devices running Android 8.1 and later, the call now requires the
 
 |An image of the Fingerprint Application|An image of the Fingerprint Application|
 |---|---|
-|![An image of the Fingerprint Application](https://raw.githubusercontent.com/ColoursofOSINT/ColoursofOSINT.github.io/master/assets/img/images/fingerprint/Fingerprint1.png) {: width="972" height="589"}| ![An image of the Fingerprint Application](https://raw.githubusercontent.com/ColoursofOSINT/ColoursofOSINT.github.io/master/assets/img/images/fingerprint/Fingerprint2.png) {: width="972" height="589"}|
+|![An image of the Fingerprint Application](https://raw.githubusercontent.com/ColoursofOSINT/ColoursofOSINT.github.io/master/assets/img/images/fingerprint/Fingerprint1.png) | ![An image of the Fingerprint Application](https://raw.githubusercontent.com/ColoursofOSINT/ColoursofOSINT.github.io/master/assets/img/images/fingerprint/Fingerprint2.png) 
 
 # The Math
 For each of the three most common hues, there are 256 combinations for each RGB value, for a total of 2^24 combinations per color. 
