@@ -6,6 +6,7 @@ tags: [firefox, privacy]     # TAG names should always be lowercase
 toc: true
 math: true
 ---
+> I am not an expert in browser extensions. {: .prompt-warning }
 # Introduction
 Recently, investigations of Google Chrome extensions have uncovered malware, spyware and adware in dozens of popular extensions used by millions of users.[^footnote] Although there was considerable criticism of Google’s review process for these extensions, I did not observe much curiosity directed towards the state of Firefox extensions. As a devout Firefox user, albeit one who only uses open-source extensions, I was inspired by a comment on YCombinator (Hacker News) by Krono to look into some popular extensions to compare Mozilla against Google.[^footnote2] 
 	
