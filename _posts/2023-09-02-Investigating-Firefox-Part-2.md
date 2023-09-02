@@ -6,8 +6,9 @@ tags: [firefox, privacy, extensions]     # TAG names should always be lowercase
 toc: true
 math: true
 ---
-> I am not an expert in browser extensions. {: .prompt-warning }
-> 
+> I am not an expert in browser extensions.
+{: .prompt-warning }
+
 #  PocketTube: Youtube Subscription Manager [Version 15.6.4] - 17,000 users
 PocketTube is an extension used to manage group subscriptions on youtube. As stated in its privacy policy, it that it uses Mixpixel for analytics tracking, however, the policy makes no mention of Sentry, which it also uses. [^footnote1] There are also many analytics, but they seem less geared to data collection and more towards premium feature payment. Moreover, there may be more analytics, but with more then 8 MB of javascript code, finding such code is difficult.
 
