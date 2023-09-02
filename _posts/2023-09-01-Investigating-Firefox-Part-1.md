@@ -38,7 +38,7 @@ This extension – produced by giphy.com – is used to load GIFs which can be s
 })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 ```
 
-This loads an analytics javascript, which can collect the IP Addresses, user agents, page views, user engagement (time spent/website, interactions,) events (button clicks, video views) and referral sources of users. There is no option to opt-out of this, or even an indication that such information collection is ongoing. This extensions appears to violate most of the recommended extension rules.
+This loads an analytics javascript, which can collect the IP Addresses, user agents, page views, user engagement (time spent/website, interactions,) events (button clicks, video views) and referral sources of users. There is no option to opt-out of this, or even an indication that such information collection is ongoing. This extension appears to violate most of the recommended extension rules: it has not been recently updated, contains remote code, does not indicate that it collects user data and does not provide an opt-out.
 
 [Read Part 2 here.](https://www.coloursofosint.com/posts/Investigating-Firefox-Part-2/)
 
