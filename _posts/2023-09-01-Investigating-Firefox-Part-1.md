@@ -41,6 +41,8 @@ This extension – produced by giphy.com – is used to load GIFs which can be s
 
 This loads an analytics javascript, which run constantly and can collect the IP Addresses, user agents, page views, user engagement (time spent/website, interactions,) events (button clicks, video views) and referral sources of users. There is no option to opt-out of this, or even an indication that such information collection is ongoing. This extension appears to violate most of the recommended extension rules: it has not been recently updated, contains remote code, does not indicate that it collects user data and does not provide an opt-out.
 
+Want to see the full Google Analytics script? [Click here!](https://www.google-analytics.com/analytics.js)
+
 [^footnote]: [https://palant.info/2023/05/31/more-malicious-extensions-in-chrome-web-store/](https://palant.info/2023/05/31/more-malicious-extensions-in-chrome-web-store/)
 [^footnote2]: [https://news.ycombinator.com/item?id=37137552](https://news.ycombinator.com/item?id=37137552)
 [^footnote3]: [https://extensionworkshop.com/documentation/publish/recommended-extensions/](https://extensionworkshop.com/documentation/publish/recommended-extensions/)
