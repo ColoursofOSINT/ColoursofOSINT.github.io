@@ -121,9 +121,17 @@ One of the most interesting pieces of code that I stumbled across sent out a req
       : undefined; //
 })();
 ```
-Even more interesting was the site it request the excuses from "tabliss.io". This is the homepage for the Tabliss extension, which is also a recommended extension.[^footnote3] Not only that, it was also mentioned as an extension that violated the Firefox Terms of Service in the post by Krono that originally inspired this investigation. 
+The API for Tabliss randomly returns excuses, with such gems as:
 
-The Tabliss Extension is the next one I will investigate. 
+1. "I have too many other high priority things to do right now"
+2. "That code seemed so simple I didn't think it needed testing"
+3. "Our redundant systems must have failed as well"
+
+Click here for [more](https://api.tabliss.io/v1/developer-excuses).
+
+Even more interesting was the site it request the excuses from "tabliss.io". This is the homepage for the Tabliss extension, which is also a recommended extension.[^footnote3] Not only that, it was also mentioned as a recommended  extension that violated the Firefox standards by Krono in the post that inspired this investigation. 
+
+The Tabliss Extension will be examined next.
 
 [^footnote1]: [https://addons.mozilla.org/en-US/firefox/addon/youtube-subscription-groups/privacy/](https://addons.mozilla.org/en-US/firefox/addon/youtube-subscription-groups/privacy/)
 [^footnote2]: [https://docs.sentry.io/platforms/javascript/guides/vue/](https://docs.sentry.io/platforms/javascript/guides/vue/)
