@@ -10,7 +10,7 @@ math: true
 > This page has been moved as I have split up the articles.
 {: .prompt-warning }
 
-Read further here:
+Read each part below.
 
 > [Part 1](https://www.coloursofosint.com/posts/Investigating-Firefox-Part-1/)
 {: .prompt-info }
