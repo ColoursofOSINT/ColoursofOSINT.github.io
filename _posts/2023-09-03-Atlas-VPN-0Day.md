@@ -22,7 +22,7 @@ In a post from Chris Partridge on Mastodon, he called the “hilarious[ly]” ba
 
 | Click Below |
 | --- | 
-| ![Proof of Concept - Click here to View](https://media.infosec.exchange/infosecmediaeu/cache/media_attachments/files/110/997/661/288/787/693/original/a209c146534a35a3.mp4) | 
+| ![ - - - - - - - Proof of Concept - Click here to View - - - - - - - ](https://media.infosec.exchange/infosecmediaeu/cache/media_attachments/files/110/997/661/288/787/693/original/a209c146534a35a3.mp4) | 
 
 
 # AtlasVPN Response (or Lack Thereof)
