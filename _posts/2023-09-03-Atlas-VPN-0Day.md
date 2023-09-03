@@ -72,7 +72,7 @@ Yikes.
 
 Hopefully Atlas will address the exploit with the same speed as NordVPN. So only 18 months to go.
 
-> I have not verified the PoC myself.
+> I have not verified the PoC myself. Don't use it maliciously. 
 {: .prompt-warning }
 
 [^footnote1]: [https://www.thevpnexperts.com/research/why-vpn-usage-is-on-the-surge/](https://www.thevpnexperts.com/research/why-vpn-usage-is-on-the-surge/)
