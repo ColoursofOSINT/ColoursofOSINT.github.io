@@ -121,9 +121,10 @@ One of the most interesting pieces of code that I stumbled across sent out a req
       : undefined; //
 })();
 ```
-Even more interesting was the site it request the excuses from, "tabliss.io". This is the homepage for the Tabliss extension, which is also a recommended extension. Not only that, it was also mentioned as an extension that violated the Firefox Terms of Service in the post by Krono that originally inspired this investigation. 
+Even more interesting was the site it request the excuses from "tabliss.io". This is the homepage for the Tabliss extension, which is also a recommended extension.[^footnote3] Not only that, it was also mentioned as an extension that violated the Firefox Terms of Service in the post by Krono that originally inspired this investigation. 
 
 The Tabliss Extension is the next one I will investigate. 
 
 [^footnote1]: [https://addons.mozilla.org/en-US/firefox/addon/youtube-subscription-groups/privacy/](https://addons.mozilla.org/en-US/firefox/addon/youtube-subscription-groups/privacy/)
 [^footnote2]: [https://docs.sentry.io/platforms/javascript/guides/vue/](https://docs.sentry.io/platforms/javascript/guides/vue/)
+[^footnote3]: [https://tabliss.io/](https://tabliss.io/)
