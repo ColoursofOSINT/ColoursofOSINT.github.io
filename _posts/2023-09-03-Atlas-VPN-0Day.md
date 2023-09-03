@@ -17,10 +17,14 @@ Two days ago, a throwaway account named ‘Educational-Map-8145’ (I’ll call 
 
 According to EM8, the AtlasVPN runs both a client and a daemon, and the client connects via “API on localhost on port 8076”. As any program can access localhost -  including websites - the malicious javascript could be run in any website to cause the VPN to disconnect, exposing the real IP of the user, which can be collected (included in the PoC script). Fortunately, EM8 firmly stated that the code was “not intended for illegal purposes”, so AltasVPN users should be fine.
 
+# Breakdown of Script (Very Complex Steps) 
+1. Send a command to stop the VPN 
+2. Grap Real IP address
+
 # Confirmation 
 In a post from Chris Partridge on Mastodon, he called the “hilarious[ly]” bad security “utter garbage”.[^footnote7]  Also included with the exposé was a video which appears to demonstrate the Proof of Concept for the dropped connection, as well as the explination that since it makes "simple request" this allows it to slip past Cross-Origin Resource Sharing ([CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)). 
 
-| Click Below |
+| Click Below for PoC Video |
 | --- | 
 | ![ - - - - - - - Proof of Concept - Click here to View - - - - - - - ](https://media.infosec.exchange/infosecmediaeu/cache/media_attachments/files/110/997/661/288/787/693/original/a209c146534a35a3.mp4) | 
 
