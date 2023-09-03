@@ -13,16 +13,15 @@ VPNs have seen a massive increase in usage in the last few years[^footnote1], wi
 It appears their inability to secure their services has occurred again.  
 
 # The 0-Day
-Two days ago, a throwaway account named ‘Educational-Map-8145’ (I’ll call them ‘EM8’) posted on the Cybersecurity subreddit posted what the user claimed to be a 0-day javascript code that after execution could disconnect the “AtlasVPN linux client and leak the users IP address”. [^footnote5] 
+Two days ago, a throwaway account named ‘Educational-Map-8145’ (I’ll call them ‘EM8’) posted on the Cybersecurity subreddit what the user claimed to be a 0-day javascript code.  After execution this code could disconnect the “AtlasVPN linux client and leak the users IP address”. [^footnote5] 
 
-According to EM8, the AtlasVPN runs both a client and a daemon, and the client connects via “API on localhost on port 8076”. As any program can access localhost, including websites which connect via browser, the malicious javascript could be run in any website to cause the VPN to disconnect, exposing the real IP of the user. Fortunately, the code is “not intended for illegal purposes.”
+According to EM8, the AtlasVPN runs both a client and a daemon, and the client connects via “API on localhost on port 8076”. As any program can access localhost -  including websites - the malicious javascript could be run in any website to cause the VPN to disconnect, exposing the real IP of the user. Fortunately, EM8 firmly stated that the code was “not intended for illegal purposes”.
 
 # Conformation 
-In a post from Chris Partridge on Mastodon the “hilarious[ly]” bad security is “utter garbage”. He included a video which appears to demonstrate the PoE for the dropped connection. [^footnote7]
-
-![Proof of Exploit - Click here to View](https://media.infosec.exchange/infosecmediaeu/cache/media_attachments/files/110/997/661/288/787/693/original/a209c146534a35a3.mp4)
-
-![Proof of Exploit](https://raw.githubusercontent.com/ColoursofOSINT/ColoursofOSINT.github.io/master/assets/img/Videos/a209c146534a35a3.mp4)
+In a post from Chris Partridge on Mastodon, he called the “hilarious[ly]” bad security “utter garbage”. Also included with the exposé was a video which appears to demonstrate the PoE for the dropped connection. [^footnote7]
+| Click Below |
+| - | 
+| ![Proof of Exploit - Click here to View](https://media.infosec.exchange/infosecmediaeu/cache/media_attachments/files/110/997/661/288/787/693/original/a209c146534a35a3.mp4) | 
 
 
 # AtlasVPN Response (or Lack Thereof)
