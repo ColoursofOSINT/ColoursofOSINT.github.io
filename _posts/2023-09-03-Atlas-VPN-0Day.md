@@ -20,9 +20,9 @@ According to EM8, the AtlasVPN runs both a client and a daemon, and the client c
 # Conformation 
 In a post from Chris Partridge on Mastodon the “hilarious[ly]” bad security is “utter garbage”. He included a video which appears to demonstrate the PoE for the dropped connection. [^footnote7]
 
-[![PoE](https://media.infosec.exchange/infosecmediaeu/cache/media_attachments/files/110/997/661/288/787/693/original/a209c146534a35a3.mp4)]
+![Proof of Exploit - Click here to View](https://media.infosec.exchange/infosecmediaeu/cache/media_attachments/files/110/997/661/288/787/693/original/a209c146534a35a3.mp4)
 
-[![PoE](https://raw.githubusercontent.com/ColoursofOSINT/ColoursofOSINT.github.io/master/assets/img/Videos/a209c146534a35a3.mp4)]
+![Proof of Exploit](https://raw.githubusercontent.com/ColoursofOSINT/ColoursofOSINT.github.io/master/assets/img/Videos/a209c146534a35a3.mp4)
 
 
 # AtlasVPN Response (or Lack Thereof)
