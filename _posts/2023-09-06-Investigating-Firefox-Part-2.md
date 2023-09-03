@@ -103,6 +103,8 @@ This fetches the user's email address from a HTML document, then creates, inject
 All in all, with such a massive size this extension was quite hard to analyze, and it appears to load a sentry SDK which can be used for error tracking. However, the Sentry Vue documentation also states that it may be used to "capture the user and gain critical pieces of information that construct a unique identity". [^footnote2] It loads some remote javascript for user analytics tied to their email. At the very least, it pulls remote javascript and does not allow the user to opt-out of non-necessary data collection, which violates the recommended extensions policy.  
 
 # Afterword
+![Developer Excuses](https://raw.githubusercontent.com/ColoursofOSINT/ColoursofOSINT.github.io/6faf08296b6555ec0817598bf0bf68b9f4a31635/assets/img/images/Lmao.png)
+
 One of the most interesting pieces of code that I stumbled across sent out a request for "developer excuses".
 
 ```
@@ -126,6 +128,7 @@ The API for Tabliss randomly returns excuses, with such gems as:
 1. "I have too many other high priority things to do right now"
 2. "That code seemed so simple I didn't think it needed testing"
 3. "Our redundant systems must have failed as well"
+
 
 Click here for [more](https://api.tabliss.io/v1/developer-excuses).
 
