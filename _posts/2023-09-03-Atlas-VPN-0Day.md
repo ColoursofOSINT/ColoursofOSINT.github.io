@@ -25,9 +25,11 @@ In a post from Chris Partridge on Mastodon, he called the “hilarious[ly]” ba
 
 
 # AtlasVPN Response (or Lack Thereof)
-In the original reddit post, EM8 claims they tried to contact AtlasVPN about the issue but received “no answer” and saw “[no] signs of a bug bounty programme”. In fact, the response was so lacking and the fact that the security “suck[ed] so massively” that they found it “hard to believe this is a bug rather than a backdoor”. Yikes.
+In the original reddit post, EM8 claims they tried to contact AtlasVPN about the issue but received “no answer” and saw “[no] signs of a bug bounty programme”. In fact, the response was so lacking and the fact that the security “suck[ed] so massively” they found it “hard to believe this is a bug rather than a backdoor”. 
 
-Hopefully Atlas will fix the exploit with the same speed as NordVPN. So only 18 months to go.
+Yikes.
+
+Hopefully Atlas will address the exploit with the same speed as NordVPN. So only 18 months to go.
 
 [^footnote1]: [https://www.thevpnexperts.com/research/why-vpn-usage-is-on-the-surge/](https://www.thevpnexperts.com/research/why-vpn-usage-is-on-the-surge/)
 [^footnote2]: [https://www.comparitech.com/vpn/reviews/atlas-vpn-review/](https://www.comparitech.com/vpn/reviews/atlas-vpn-review/)
