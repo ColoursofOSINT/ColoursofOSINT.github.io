@@ -98,9 +98,9 @@ m["return"]();
 if (!...
 
 ```
-This fetches the user's email address from a HTML document, then creates, injects and continuously runs the profitwell analytics javascript which initiates the javascript with the email of the user.
+This fetches the user's email address from a HTML document, then creates, injects and continuously runs the profitwell analytics javascript which initiates the javascript with the email of the user. There appears to be no way to opt-out of this injection.
 
-All in all, with such a massive size this extension was quite hard to analyze, and it appears to load a sentry SDK which can be used for error tracking. However, the Sentry Vue documentation also states that it may be used to "capture the user and gain critical pieces of information that construct a unique identity". [^footnote2] It loads some remote javascript for user analytics tied to their email. At the very least, it pulls remote javascript and does not allow the user to opt-out of non-necessary data collection, which violates the recommended extensions policy.  
+All in all, with such a massive size this extension was quite hard to analyze, and it appears to load a sentry SDK which can be used for error tracking. However, the Sentry Vue documentation also states that it may be used to "capture the user and gain critical pieces of information that construct a unique identity". [^footnote2] With profitwell it loads and injects remote javascript for user analytics tied to their email. At the very least, it pulls remote javascript and does not allow the user to opt-out of non-necessary data collection, which is a clear violation of the recommended extensions policy.  
 
 # Afterword
 ![Developer Excuses](https://raw.githubusercontent.com/ColoursofOSINT/ColoursofOSINT.github.io/6faf08296b6555ec0817598bf0bf68b9f4a31635/assets/img/images/Lmao.png)
