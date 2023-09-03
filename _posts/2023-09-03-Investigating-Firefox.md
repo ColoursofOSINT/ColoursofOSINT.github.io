@@ -7,7 +7,7 @@ toc: true
 math: true
 ---
 
-> This page has been moved as I have spilt up the articles.
+> This page has been moved as I have split up the articles.
 {: .prompt-warning }
 
 Read further here:
