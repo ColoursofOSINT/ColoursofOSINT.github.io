@@ -20,7 +20,7 @@ According to EM8, the AtlasVPN runs both a client and a daemon, and the client c
 # Conformation 
 In a post from Chris Partridge on Mastodon, he called the “hilarious[ly]” bad security “utter garbage”. Also included with the exposé was a video which appears to demonstrate the PoE for the dropped connection. [^footnote7]
 | Click Below |
-| - | 
+| --- | 
 | ![Proof of Exploit - Click here to View](https://media.infosec.exchange/infosecmediaeu/cache/media_attachments/files/110/997/661/288/787/693/original/a209c146534a35a3.mp4) | 
 
 
