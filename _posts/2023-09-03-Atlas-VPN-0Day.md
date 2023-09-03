@@ -1,5 +1,5 @@
 ---
-title: Atlas VPN 0Day
+title: Unpached Atlas VPN 0Day PoC Posted 
 date: 2023-09-03 12:00:00 +0800
 categories: [VPN]
 tags: [atlas vpn, privacy, exploit]     # TAG names should always be lowercase
