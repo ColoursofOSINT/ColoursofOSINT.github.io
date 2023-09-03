@@ -12,7 +12,7 @@ VPNs have seen a massive increase in usage in the last few years[^footnote1], wi
 
 It appears their inability to secure their services has occurred again.  
 
-# The Zero Day
+# The Exploit
 Two days ago, a throwaway account named ‘Educational-Map-8145’ (I’ll call them ‘EM8’) posted on the Cybersecurity subreddit what the user claimed to be a 0-day javascript code.  After execution this code could disconnect the “AtlasVPN linux client and leak the users IP address”. [^footnote5] 
 
 According to EM8, the AtlasVPN runs both a client and a daemon, and the client connects via “API on localhost on port 8076”. As any program can access localhost -  including websites - the malicious javascript could be run in any website to cause the VPN to disconnect, exposing the real IP of the user, which can be collected (included in the PoC script). Fortunately, EM8 firmly stated that the code was “not intended for illegal purposes”, so AltasVPN users should be fine.
