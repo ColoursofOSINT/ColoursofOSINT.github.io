@@ -11,10 +11,10 @@ math: true
 
 #  PocketTube: Youtube Subscription Manager [Version 15.6.4] - 17,000 users
 ## Introduction
-PocketTube is an extension used to manage group subscriptions on youtube. As stated in its privacy policy, it that it uses Mixpixel for analytics tracking, however, the policy makes no mention of Sentry, which it also uses. [^footnote1] 
+PocketTube is an extension used to manage group subscriptions on youtube. As stated in its privacy policy, it that it uses Mixpixel for analytics tracking, however, the policy makes no mention of Sentry, which it also uses. [^footnote1]  However, with more then 8 MB of seemingly obfuscated javascript code finding such analytics code was difficult.
 
 ## Part 1 - Disclosed Code
-There are also many analytics, but they seem less geared to data collection and more towards premium feature payment. However, with more then 8 MB of seemingly obfuscated javascript code finding such analytics code was difficult.
+There are many analytics, but they seem less geared to data collection and more towards premium feature payment.
 
 ```
 var be = "https://api.mixpanel.com";
@@ -51,7 +51,7 @@ lC({
 }
 ```
 ## Part 2 - Suspicious Code
-However, after several more hours of digging, I began to find some code that appeared suspious.
+However, after several more hours of digging, I began to find some code that appeared suspicious.
 
 ```
  {
@@ -70,27 +70,9 @@ n.get('view-version')
  },
 ```
 
-This code appear to "setupAnalytics", but upon further examination, I couldn't find anything that appears balantly suspect. 
+This code appear to "setupAnalytics", but upon further examination, I couldn't find anything that appeared blatantly suspect.
 
-```
-;(async function (e, t) {
-  e.push();
-  const n =
-    t === 'developerexcuses'
-      ? await (async function () {
-          try {
-            const response = await fetch('https://api.tabliss.io/v1/developer-excuses');
-            return { quote: (await response.json()).data };
-          } catch (error) {
-            return { quote: 'Unable to get a new developer excuse.' };
-          }
-        })()
-      : undefined; //
-})();
-
-```
-
-## Part 3 - Analytics 
+## Part 3 - Undiscolsed Analytics and Javascript Injection
 After a significant amount of searching, the following code was found:
 
 ```
@@ -116,9 +98,32 @@ m["return"]();
 if (!...
 
 ```
-This fetches the user's email address from a HTML document, then creates and continuously runs the profitwell analytics javascript which initiales the javascript with the email.
+This fetches the user's email address from a HTML document, then creates, injects and continuously runs the profitwell analytics javascript which initiates the javascript with the email of the user.
 
-All in all, with such a massive size this extenion was quite hard to analyze, and it appears to load a sentry SDK which can be used for error tracking. However, the Sentry Vue documentation also states that it may be used to "capture the user and gain critical pieces of information that construct a unique identity". [^footnote2] It loads some remote javascript for user analytics tied to their email. At the very least, it pulls remote javascript and does not allow opting out of non-nessary data collection, which violates the recommended extensions policy. 
+All in all, with such a massive size this extension was quite hard to analyze, and it appears to load a sentry SDK which can be used for error tracking. However, the Sentry Vue documentation also states that it may be used to "capture the user and gain critical pieces of information that construct a unique identity". [^footnote2] It loads some remote javascript for user analytics tied to their email. At the very least, it pulls remote javascript and does not allow the user to opt-out of non-necessary data collection, which violates the recommended extensions policy.  
+
+# Afterword
+One of the most interesting pieces of code that I stumbled across sent out a request for "developer excuses".
+
+```
+;(async function (e, t) {
+  e.push();
+  const n =
+    t === 'developerexcuses'
+      ? await (async function () {
+          try {
+            const response = await fetch('https://api.tabliss.io/v1/developer-excuses');
+            return { quote: (await response.json()).data };
+          } catch (error) {
+            return { quote: 'Unable to get a new developer excuse.' };
+          }
+        })()
+      : undefined; //
+})();
+```
+Even more interesting was the site it request the excuses from, "tabliss.io". This is the homepage for the Tabliss extension, which is also a recommended extension. Not only that, it was also mentioned as an extension that violated the Firefox Terms of Service in the post by Krono that originally inspired this investigation. 
+
+The Tabliss Extension is the next one I will investigate. 
 
 [^footnote1]: [https://addons.mozilla.org/en-US/firefox/addon/youtube-subscription-groups/privacy/](https://addons.mozilla.org/en-US/firefox/addon/youtube-subscription-groups/privacy/)
 [^footnote2]: [https://docs.sentry.io/platforms/javascript/guides/vue/](https://docs.sentry.io/platforms/javascript/guides/vue/)
