@@ -15,5 +15,5 @@ Read each part below.
 > [Part 1](https://www.coloursofosint.com/posts/Investigating-Firefox-Part-1/)
 {: .prompt-info }
 
-> [Part 2](https://www.coloursofosint.com/posts/Investigating-Firefox-Part-2/)
+> [Part 2 - Coming Soon!](https://www.coloursofosint.com/posts/Investigating-Firefox-Part-2/)
 {: .prompt-info }
