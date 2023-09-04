@@ -1,7 +1,7 @@
 ---
 title: Investigating “Recommended Extensions” - Part 2
 date: 2023-09-03 12:00:00 +0800
-categories: [Browser]
+categories: [Technology, Browser]
 tags: [firefox, privacy, extensions]     # TAG names should always be lowercase
 toc: true
 math: true
