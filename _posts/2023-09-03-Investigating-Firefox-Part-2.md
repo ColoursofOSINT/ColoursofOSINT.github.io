@@ -6,8 +6,6 @@ tags: [firefox, privacy, extensions]     # TAG names should always be lowercase
 toc: true
 math: true
 ---
-> I am not an expert in browser extensions.
-{: .prompt-warning }
 
 #  PocketTube: Youtube Subscription Manager [Version 15.6.4] - 17,000 users
 ## Introduction
