@@ -98,7 +98,7 @@ m["return"]();
 if (!...
 
 ```
-This fetches the user's email address from a HTML document (with the auth token of 'd9e7cc8d6ed29daf6d6bf94d3fbfa915'), then creates, injects and continuously runs the profitwell analytics javascript which initiates the javascript with the email of the user. There appears to be no way to opt-out of this injection.
+This fetches the user's email address from a HTML document (with the auth token of 'd9e7cc8d6ed29daf6d6bf94d3fbfa915'), then creates, injects and continuously runs the profitwell analytics javascript which initiates with the email of the user. There appears to be no way to opt-out of this injection or data collection.
 
 All in all, with such a massive size this extension was quite hard to analyze, and it appears to load a sentry SDK which can be used for error tracking. However, the Sentry Vue documentation also states that it may be used to "capture the user and gain critical pieces of information that construct a unique identity".[^footnote2] With profitwell it loads and injects remote javascript for user analytics tied to their email. At the very least, it pulls remote javascript and does not allow the user to opt-out of non-necessary data collection, which is a clear violation of the recommended extensions policy.  
 
