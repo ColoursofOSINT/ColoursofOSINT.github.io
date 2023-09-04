@@ -26,7 +26,7 @@ function we(e, t, n, i) {
   ke.lang = n;
 ```
 
-However, with the Sentry SDK, more infomation could be collected, although there is no evidence to suggest this is ongoing. The extension author claims that this data is only used for preformce upgrades.
+However, with the Sentry SDK, more infomation could be collected, although there is no evidence to suggest this is ongoing. The extension author claims that this data is only used for preformance upgrades.
 
 ```
 lC({
