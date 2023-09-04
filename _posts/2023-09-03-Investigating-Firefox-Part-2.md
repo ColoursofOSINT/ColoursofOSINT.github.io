@@ -133,7 +133,7 @@ The API for Tabliss randomly returns excuses, with such gems as:
 
 Click here for [more](https://api.tabliss.io/v1/developer-excuses).
 
-Even more interesting was the site it request the excuses from "tabliss.io". This is the homepage for the Tabliss extension, which is also a recommended extension.[^footnote3] Not only that, it was also mentioned as a recommended  extension that violated the Firefox standards by Krono in the post that inspired this investigation.[^footnote4]
+Even more interesting was the site it request the excuses from "tabliss.io". This is the homepage for the Tabliss extension, which is also a recommended extension.[^footnote3] Not only that, it was also mentioned as an extension that violated the Firefox standards by Krono in the post that inspired this investigation.[^footnote4]
 
 The Tabliss Extension will be examined next.
 
