@@ -1,7 +1,7 @@
 ---
 title: MacOS Privacy Preserving Automatic Bluetooth Shutoff
 date: 2023-08-31 12:00:00 +0800
-categories: [MacOS]
+categories: [Technology, MacOS]
 tags: [macos, privacy, bluetooth]     # TAG names should always be lowercase
 toc: true
 ---
