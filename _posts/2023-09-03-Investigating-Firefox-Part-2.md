@@ -51,7 +51,7 @@ lC({
 }
 ```
 ## Part 2 - Suspicious Code
-However, after several more hours of digging, I began to find some code that appeared suspicious.
+Continuing my search, I began to find some code that appeared suspicious.
 
 ```
  {
@@ -73,7 +73,7 @@ n.get('view-version')
 This code appear to "setupAnalytics", but upon further examination, I couldn't find anything that appeared blatantly suspect.
 
 ## Part 3 - Undiscolsed Analytics and Javascript Injection
-After a significant amount of searching, the following code was found:
+After a significant amount of searching, the following code was found.
 
 ```
 return c = document.createElement("script");
@@ -98,7 +98,7 @@ m["return"]();
 if (!...
 
 ```
-This fetches the user's email address from a HTML document, then creates, injects and continuously runs the profitwell analytics javascript which initiates the javascript with the email of the user. There appears to be no way to opt-out of this injection.
+This fetches the user's email address from a HTML document (with the auth 'd9e7cc8d6ed29daf6d6bf94d3fbfa915'), then creates, injects and continuously runs the profitwell analytics javascript which initiates the javascript with the email of the user. There appears to be no way to opt-out of this injection.
 
 All in all, with such a massive size this extension was quite hard to analyze, and it appears to load a sentry SDK which can be used for error tracking. However, the Sentry Vue documentation also states that it may be used to "capture the user and gain critical pieces of information that construct a unique identity". [^footnote2] With profitwell it loads and injects remote javascript for user analytics tied to their email. At the very least, it pulls remote javascript and does not allow the user to opt-out of non-necessary data collection, which is a clear violation of the recommended extensions policy.  
 
@@ -132,7 +132,7 @@ The API for Tabliss randomly returns excuses, with such gems as:
 
 Click here for [more](https://api.tabliss.io/v1/developer-excuses).
 
-Even more interesting was the site it request the excuses from "tabliss.io". This is the homepage for the Tabliss extension, which is also a recommended extension.[^footnote3] Not only that, it was also mentioned as a recommended  extension that violated the Firefox standards by Krono in the post that inspired this investigation. [^footnote4]
+Even more interesting was the site it request the excuses from "tabliss.io". This is the homepage for the Tabliss extension, which is also a recommended extension.[^footnote3] Not only that, it was also mentioned as a recommended  extension that violated the Firefox standards by Krono in the post that inspired this investigation.[^footnote4]
 
 The Tabliss Extension will be examined next.
 
