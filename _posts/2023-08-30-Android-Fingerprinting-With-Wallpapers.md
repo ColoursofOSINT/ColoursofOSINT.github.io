@@ -1,7 +1,7 @@
 ---
 title: Android Fingerprinting With Wallpapers
 date: 2023-08-30 12:00:00 +0800
-categories: [Android]
+categories: [Technology, Android]
 tags: [android, privacy, fingerprinting]     # TAG names should always be lowercase
 toc: true
 math: true
