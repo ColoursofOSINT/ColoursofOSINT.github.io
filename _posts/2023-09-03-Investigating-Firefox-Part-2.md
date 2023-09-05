@@ -12,7 +12,7 @@ math: true
 PocketTube is an extension used to manage group subscriptions on youtube. As stated in its privacy policy, it that it uses Mixpixel for analytics tracking, however, the policy makes no mention of Sentry, which it also uses.[^footnote1] However, with more then 8 MB of seemingly obfuscated javascript code finding such analytics code was difficult.
 
 ## Privacy Policy
-The extension author claims that any data collected will "not sold to third parties". Furthermore, the policy claims to use Mixpanel and that the author may "gather and log data on how our users access and use". [^footnote1]
+The extension author claims that any data collected will "not sold to third parties". Furthermore, the policy claims to use Mixpanel and that the author may "gather and log data on how our users access and use".[^footnote1]
 
 ## Part 1 - Disclosed Code
 There are many analytics, but they seem less geared to data collection and more towards premium feature payment.
