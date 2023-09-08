@@ -9,6 +9,9 @@ math: true
 
 #  PocketTube: Youtube Subscription Manager [Version 15.6.4] - 17,000 users
 ## Introduction
+
+![Image](https://raw.githubusercontent.com/ColoursofOSINT/ColoursofOSINT.github.io/master/assets/img/images/firefox/Screenshot%202023-09-08%20at%2010.21.40%20AM.png)
+
 PocketTube is an extension used to manage group subscriptions on youtube. As stated in its privacy policy, it that it uses Mixpixel for analytics tracking, however, the policy makes no mention of Sentry, which it also uses.[^footnote1] However, with more then 8 MB of seemingly obfuscated javascript code finding such analytics code was difficult.
 
 ## Privacy Policy
