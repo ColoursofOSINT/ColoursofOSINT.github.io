@@ -12,6 +12,8 @@ math: true
 
 Read each part below.
 
+![Image](https://raw.githubusercontent.com/ColoursofOSINT/ColoursofOSINT.github.io/master/assets/img/images/firefox/Screenshot%202023-09-08%20at%2010.32.16%20AM.png)
+
 > [Part 1](https://www.coloursofosint.com/posts/Investigating-Firefox-Part-1/)
 {: .prompt-info }
 
