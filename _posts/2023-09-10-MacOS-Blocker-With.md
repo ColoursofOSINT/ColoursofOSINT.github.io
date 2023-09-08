@@ -14,7 +14,7 @@ I spend too much time on my Mac on distracting websites and apps. I am also fair
 Blocks apps and websites.[^1] The only blocker I found that is possible to prevent myself from disabling, with almost complete privacy and a large customization.
 
 # Privacy Impovements
-Whenever a page is blocked, the block page loads "getcoldturkey.com/blocked", which provides various page customization functions, but their are (albeit privacy respecting) analytics. To block the block page, edit the hosts file by opening terminal and enter: 
+Whenever a page is blocked, the block page loads "getcoldturkey.com/blocked", which provides various page customization functions, but there are (albeit privacy respecting) analytics. To block the block page, edit the hosts file by opening terminal and enter: 
 
 ```
 sudo nano /private/etc/hosts
