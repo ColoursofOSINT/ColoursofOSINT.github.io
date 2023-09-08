@@ -16,15 +16,15 @@ Blocks apps and websites.[^1] The only blocker I found that is possible to preve
 # Privacy Impovements
 Whenever a page is blocked, the block page loads "getcoldturkey.com/blocked", which provides various page customization functions, but their are (albeit privacy respecting) analytics. To block the block page, edit the hosts file by opening terminal and enter: 
 
-`
+```
 sudo nano /private/etc/hosts
-`
+```
 
 Enter:
 
-`
+```
 0.0.0.0 getcoldturkey.com
-`
+```
 
 Close and save with 'Ctrl + O' then 'enter'.
 
