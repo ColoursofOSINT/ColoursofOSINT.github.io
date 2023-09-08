@@ -3,7 +3,7 @@
 icon: fas fa-info-circle
 order: 4
 ---
-This is my personal website. My hobbies are OSINT, open-source software and cybersecurity.
+This is my personal website. My hobbies are OSINT, FOSS and cybersecurity.
 
 Here are some of the websites I find the most interesting:
 
