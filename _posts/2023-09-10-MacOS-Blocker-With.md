@@ -20,7 +20,7 @@ Whenever a page is blocked, the block page loads "getcoldturkey.com/blocked", wh
 sudo nano /private/etc/hosts
 `
 
-Enter, 
+Enter:
 
 `
 0.0.0.0 getcoldturkey.com
