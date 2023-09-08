@@ -8,13 +8,27 @@ math: true
 ---
 
 # The Problem 
-I spend too much time on my Mac on distracting websites and apps. I am also fairly advanced in my knowledge of MacOS applications, their functions and the various methods they use start and stay running.
+I spend too much time on my Mac on distracting websites and apps. I am also fairly advanced in my knowledge of MacOS applications, their functions and the various methods they use start and stay running, thus I can disable most blockers with ease.
 
 # Cold Turkey Blocker 
-Blocks apps and websites.[^1]
+Blocks apps and websites.[^1] The only blocker I found that is possible to prevent myself from disabling, with almost complete privacy and a large customization.
+
+# Privacy Impovements
+Whenever a page is blocked, the block page loads "getcoldturkey.com/blocked", which provides various page customization functions, but their are (albeit privacy respecting) analytics. To block the block page, edit the hosts file by opening terminal and enter: 
+
+'
+sudo nano /private/etc/hosts
+'
+
+Enter, 
+
+'
+0.0.0.0 getcoldturkey.com
+'
+Close and save with 'Ctrl + O' then 'enter'.
 
 # Ways to Bypass and Solutions
-Other than not activating Cold Turkey Blocker, one can cause it to cease functioning as a result of damaging the application or its supports.
+One can cause it to cease functioning as a result of damaging the application or its supports.
 
 ## Removing Contents 
 Applications cannot be deleted (moved to the trash) while running, and Cold Turkey restarts immediately after quit. Their contents can be deleted, though. Right select, choose to view contents, delete them and quit the application by opening it, and hiting "Cmd + Q".
@@ -35,6 +49,8 @@ rm -i /Users/[yourname]/Library/LaunchAgents/launchkeep.cold-turkey.plist
 ```
 sudo rm -i /Library/LaunchAgents/launchkeep.cold-turkey-all-users.plist
 ```
+
+Then quit coldturkey.
 
 ## Remove Databases 
 Cold Turkey stores usage information and blocklists at:
