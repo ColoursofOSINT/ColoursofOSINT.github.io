@@ -11,6 +11,9 @@ math: true
 I spend too much time on my Mac on distracting websites and apps. I am also fairly advanced in my knowledge of MacOS applications, their functions and the various methods they use start and stay running, thus I can disable most blockers with ease.
 
 # Cold Turkey Blocker 
+
+![Image](https://raw.githubusercontent.com/ColoursofOSINT/ColoursofOSINT.github.io/master/assets/img/images/coldturkey.png)
+
 Blocks apps and websites.[^1] The only blocker I found that is possible to prevent myself from disabling, with almost complete privacy and a large customization.
 
 # Privacy Impovements
