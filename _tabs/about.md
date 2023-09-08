@@ -8,7 +8,7 @@ This is my personal website. I am interested in OSINT, FOSS and cybersecurity.
 Here are some of the websites I visit the most:
 
 1. [Hacker News](https://news.ycombinator.com/)
-2. [Palant](Palant.info)
+2. [Palant](https://Palant.info)
 3. [Krebs on Security](https://krebsonsecurity.com/)
-4. [Tales from Kagi](blog.kagi.com)
+4. [Tales from Kagi](https://blog.kagi.com)
 5. [Stacker News](https://stacker.news/)
