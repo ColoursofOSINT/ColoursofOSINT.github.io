@@ -5,7 +5,7 @@ order: 4
 ---
 This is my personal website. My hobbies are OSINT, open-source software and cybersecurity.
 
-Here are some of the websites I find the most intresting:
+Here are some of the websites I find the most interesting:
 
 1. [Hacker News](https://news.ycombinator.com/)
 2. [Palant](Palant.info)
