@@ -1,6 +1,6 @@
 ---
 title: MacOS Application Blocker 
-date: 2023-09-7 12:00:00 +0800
+date: 2023-09-07 12:00:00 +0800
 categories: [Technology, MacOS]
 tags: [macos, time-mangement]     # TAG names should always be lowercase
 toc: true
