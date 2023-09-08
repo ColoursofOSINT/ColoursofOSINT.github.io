@@ -3,9 +3,9 @@
 icon: fas fa-info-circle
 order: 4
 ---
-This is my personal website. My hobbies are OSINT, FOSS and cybersecurity.
+This is my personal website. I am interested in OSINT, FOSS and cybersecurity.
 
-Here are some of the websites I find the most interesting:
+Here are some of the websites I visit the most:
 
 1. [Hacker News](https://news.ycombinator.com/)
 2. [Palant](Palant.info)
