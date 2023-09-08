@@ -51,7 +51,7 @@ rm -i /Users/[yourname]/Library/LaunchAgents/launchkeep.cold-turkey.plist
 sudo rm -i /Library/LaunchAgents/launchkeep.cold-turkey-all-users.plist
 ```
 
-Then quit coldturkey.
+Then quit the application.
 
 ## Remove Databases 
 Cold Turkey stores usage information and blocklists at:
