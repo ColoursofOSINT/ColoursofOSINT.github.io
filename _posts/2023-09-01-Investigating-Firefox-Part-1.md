@@ -22,6 +22,8 @@ Seems fair, right? Well, a quick look into some of Mozilla’s “Recommended Ex
 
 # Giphy [Version 3.1] – 7,000 users
 
+![Image](https://raw.githubusercontent.com/ColoursofOSINT/ColoursofOSINT.github.io/master/assets/img/images/firefox/Screenshot%202023-09-08%20at%2010.21.17%20AM.png)
+
 This extension – produced by giphy.com – is used to load GIFs which can be sent in “emails, tweets and more”.[^footnote4] Users can search for a GIF and then drag and drop it into the message. Despite not being updated since 2021, it is still a recommended extension. Furthermore, it has no privacy policy  suggesting that the extension does not collect data, but in reality the extension includes an analytics.ts file, which when decompiled, yields: 
 
 ```
