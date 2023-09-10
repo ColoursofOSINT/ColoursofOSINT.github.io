@@ -86,9 +86,9 @@ If you receive a notification about having mail, usually shown at terminal start
 ```
 mail
 # then enter,
-? d *
+d *
 # and then,
-? q
+q
 ```
 
 [^Footnote-1]: [https://www.theregister.com/2021/10/22/bluetooth_tracking_device/]( https://www.theregister.com/2021/10/22/bluetooth_tracking_device/)
