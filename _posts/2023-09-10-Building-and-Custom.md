@@ -1,6 +1,6 @@
 ---
 title: Building and Customizing a Chirpy Website
-date: 2023-09-10 12:00:00 +0800
+date: 2023-09-15 12:00:00 +0800
 categories: [Technology, Website]
 tags: [website, privacy]     # TAG names should always be lowercase
 toc: true
