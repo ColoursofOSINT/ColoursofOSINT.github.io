@@ -81,5 +81,15 @@ The response should be:
 30 * * * * /path/to/file
 ```
 
+If you receive a notification about having mail, usually shown at terminal start with `You have mail.` Then you can check the updates from your cronjob with `mail`. To delete all mail, enter.
+
+```
+mail
+# then enter,
+? d *
+# and then,
+? q
+```
+
 [^Footnote-1]: [https://www.theregister.com/2021/10/22/bluetooth_tracking_device/]( https://www.theregister.com/2021/10/22/bluetooth_tracking_device/)
 [^Footnote-2]: [https://www.tomsguide.com/news/bluetooth-device-tracking](https://www.tomsguide.com/news/bluetooth-device-tracking)
