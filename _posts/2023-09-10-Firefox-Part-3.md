@@ -14,15 +14,15 @@ My findings about the Recommended Extensions in Firefox is that the program is g
 
 ### No requirement to allow examination of code
   
-Extensions can use a custom licence or end user agreement which has consumer limiting terms that prevent the examination of source code. It's very hard to find malicious code if the user is prevented from searching for such code.  Furthermore, for Firefox to claim that recommended extensions have the “highest standards of security” is dubious, since exposing or even investigating malicious code can come with risks of financial and legal repercussions.
+Extensions can use a custom licence or end user agreement which has consumer limiting terms that prevent the examination of source code. It's very hard to find malicious code if the user is prevented from searching for such code.  Furthermore, for Firefox to claim that recommended extensions have the “highest standards of security” is dubious, since exposing or even investigating malicious code can come with risks of financial and legal repercussions.[^f1]
 
 ![Image](https://raw.githubusercontent.com/ColoursofOSINT/ColoursofOSINT.github.io/master/assets/img/images/firefox/Enhance.png)
 
-For example, *Enhancer for YouTube* has a licence that states "nobody has the right to review the Source Code" and that "nobody has the right to reverse-engineer" while promising legal action should the terms be violated. If malicious code was found in an investigation, I wouldn't feel comfortable reporting it for fear of legal issues.
+For example, *Enhancer for YouTube* has a licence that states "nobody has the right to review the Source Code" and that "nobody has the right to reverse-engineer" while promising legal action should the terms be violated. If malicious code was found in an investigation, I wouldn't feel comfortable reporting it for fear of legal issues.[^f2]
 
 ![Image](https://raw.githubusercontent.com/ColoursofOSINT/ColoursofOSINT.github.io/master/assets/img/images/firefox/terms.png)
 
-This is very concerning considering the various complaints about ads:
+This is very concerning considering the various complaints about ads[^f3]:
 
 1. "This extension ... includ[es] advertisements." - hmm 
 2. "Adware in a Recommended extension is absolutely UNACCEPTABLE, especially since you can't adblock elements in a settings page. This is malware-like behavior." - Psythik 
@@ -31,13 +31,13 @@ This is very concerning considering the various complaints about ads:
 5. "Instantly removing due to inclusion of pop up ads. How in the hell are you going to have an app that removes YT ads then hits you with its own popup ads?" - Scott347
 6. "Whenever you open Firefox, Enhancer for YouTube™ sets a youtube.com cookie." - Firefox user 16930958
 
-The developers asseration that if there was "do not collect data of any sort, and they do not inject ads" and that if they did the extension would "be rejected" is worthless, as the review team misses the most basic of code injection and analytics. 
+The developers asseration that if there was "do not collect data of any sort, and they do not inject ads" and that if they did the extension would "be rejected" is worthless, as the review team misses the most basic of code injection and analytics. [^f4]
 
 Recommended extensions should be held to the highest standards. Users should be allowed to search for malware, adware and spyware without worrying about legal consequences.
 
 ### Overly Permissive Permissions
 
-To decrease the damage a malicious could cause, Firefox should tighten the permissions extensions can request. There are number of extensions that should only require data from a single website but requests access to all websites. The overly permissive permissions are risks to all users. For example, *Easy Youtube Video Downloader Express* and *YouTube High Definition* have access to **all websites**, despite appearing to only need access to Youtube.
+To decrease the damage a malicious could cause, Firefox should tighten the permissions extensions can request. There are number of extensions that should only require data from a single website but requests access to all websites. The overly permissive permissions are risks to all users. For example, *Easy Youtube Video Downloader Express* and *YouTube High Definition* have access to **all websites**, despite appearing to only need access to Youtube. [^f5][^f6]
 
 ## Extension Examination Failures
 
@@ -47,10 +47,12 @@ A quick search for common analytics terms such as *promo, utm, analytics, profit
 ### Permission scope analysis
 As suggested above, an analysis of the requested permissions in relation to the scope of the extension in question would be beneficial.  
 
-## Communication Failures 
-
 # Afterword
-Overall, I'm disappointed in Mozilla. Not so much for the failures to catch remote code and hidden analytics, but rather the willing misrepresentation of the security the certification process provides. It's certainly not as bad as the 'Featured' extensions on Chrome, but I expected better. While the vast majority of the Recommended Extensions are privacy and security respecting, this is more likely to be a result of the open source community keeping extensions honest. The abject failure to catch even the most obvious of violations does not inspire confidence.
+Overall, I'm a little disappointed in Mozilla; not so much for the failures to catch remote code and hidden analytics, but rather the willing misrepresentation of the security the certification process provides. While the vast majority of the Recommended Extensions are privacy and security respecting, this is more likely to be a result of the open source community keeping extensions honest. It's certainly much better than the 'Featured' extensions on Chrome. 
 
-https://addons.mozilla.org/en-US/firefox/addon/enhancer-for-youtube/reviews/?score=1
-https://www.mrfdev.com/privacy
+[^f1]: [https://support.mozilla.org/en-US/kb/recommended-extensions-program](https://support.mozilla.org/en-US/kb/recommended-extensions-program)
+[^f2]: [https://addons.mozilla.org/en-US/firefox/addon/enhancer-for-youtube/reviews/?score=1](https://addons.mozilla.org/en-US/firefox/addon/enhancer-for-youtube/reviews/?score=1)
+[^f3]: [https://addons.mozilla.org/en-US/firefox/addon/enhancer-for-youtube/license/](https://addons.mozilla.org/en-US/firefox/addon/enhancer-for-youtube/license/)
+[^f4]: [https://www.mrfdev.com/privacy](https://www.mrfdev.com/privacy)
+[^f5]: [https://addons.mozilla.org/en-US/firefox/addon/easy-youtube-video-download/](https://addons.mozilla.org/en-US/firefox/addon/easy-youtube-video-download/)
+[^f6]: [https://addons.mozilla.org/en-US/firefox/addon/youtube-high-definition/](https://addons.mozilla.org/en-US/firefox/addon/youtube-high-definition/)
