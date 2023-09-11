@@ -1,6 +1,6 @@
 ---
 title: Investigating “Recommended Extensions” - Part 3 
-date: 2023-09-15 12:00:00 +0800
+date: 2023-09-10 12:00:00 +0800
 categories: [Technology, Browser]
 tags: [firefox, privacy, security]     # TAG names should always be lowercase
 toc: true
@@ -37,11 +37,15 @@ Recommended extensions should be held to the highest standards. Users should be 
 
 ### Overly Permissive Permissions
 
+To decrease the damage a malicious could cause, Firefox should tighten the permissions extensions can request. There are number of extensions that should only require data from a single website but requests access to all websites. The overly permissive permissions are risks to all users. For example, *Easy Youtube Video Downloader Express* and *YouTube High Definition* have access to **all websites**, despite appearing to only need access to Youtube.
 
 ## Extension Examination Failures
-### Search for common terms
-### Permission scope analysis
 
+### Search for common terms
+A quick search for common analytics terms such as *promo, utm, analytics, profit...* would have uncovered violations in both of the extensions that broke the extension policies.
+
+### Permission scope analysis
+As suggested above, an analysis of the requested permissions in relation to the scope of the extension in question would be beneficial.  
 
 ## Communication Failures 
 
