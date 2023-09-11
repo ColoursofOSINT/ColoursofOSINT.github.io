@@ -5,7 +5,7 @@ categories: [Technology, Browser]
 tags: [firefox, privacy]     # TAG names should always be lowercase
 toc: true
 math: true
---
+---
 
 ![Image](https://raw.githubusercontent.com/ColoursofOSINT/ColoursofOSINT.github.io/master/assets/img/images/firefox/Screenshot%202023-09-08%20at%2010.32.16%20AM.png)
 
