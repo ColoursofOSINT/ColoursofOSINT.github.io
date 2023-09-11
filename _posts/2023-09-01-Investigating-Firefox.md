@@ -10,12 +10,13 @@ math: true
 > This page has been moved as I have split up the articles.
 {: .prompt-warning }
 
-Read each part below.
-
 ![Image](https://raw.githubusercontent.com/ColoursofOSINT/ColoursofOSINT.github.io/master/assets/img/images/firefox/Screenshot%202023-09-08%20at%2010.32.16%20AM.png)
 
-> [Part 1](https://www.coloursofosint.com/posts/Investigating-Firefox-Part-1/)
+> [Part 1 - Introduction and Giphy](https://www.coloursofosint.com/posts/Investigating-Firefox-Part-1/)
 {: .prompt-info }
 
-> [Part 2](https://www.coloursofosint.com/posts/Investigating-Firefox-Part-2/)
+> [Part 2 - PocketTube](https://www.coloursofosint.com/posts/Investigating-Firefox-Part-2/)
+{: .prompt-info }
+
+> [Part 3 - Conclusion and Recommendations](https://www.coloursofosint.com/posts/Firefox-Part-3/)
 {: .prompt-info }
