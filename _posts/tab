@@ -1,0 +1,42 @@
+---
+title: Investigating “Recommended Extensions” - Part 2
+date: 2023-09-20 12:00:00 +0800
+categories: [Technology, Browser]
+tags: [firefox, privacy, extensions]     # TAG names should always be lowercase
+toc: true
+math: true
+---
+
+# Afterword
+![Developer Excuses](https://raw.githubusercontent.com/ColoursofOSINT/ColoursofOSINT.github.io/6faf08296b6555ec0817598bf0bf68b9f4a31635/assets/img/images/Lmao.png)
+
+One of the most interesting pieces of code that I stumbled across sent out a request for "developer excuses".
+
+```
+;(async function (e, t) {
+  e.push();
+  const n =
+    t === 'developerexcuses'
+      ? await (async function () {
+          try {
+            const response = await fetch('https://api.tabliss.io/v1/developer-excuses');
+            return { quote: (await response.json()).data };
+          } catch (error) {
+            return { quote: 'Unable to get a new developer excuse.' };
+          }
+        })()
+      : undefined; //
+})();
+```
+The API for Tabliss randomly returns excuses, with such gems as:
+
+1. "I have too many other high priority things to do right now"
+2. "That code seemed so simple I didn't think it needed testing"
+3. "Our redundant systems must have failed as well"
+
+
+Click here for [more](https://api.tabliss.io/v1/developer-excuses).
+
+Even more interesting was the site it request the excuses from "tabliss.io". This is the homepage for the Tabliss extension, which is also a recommended extension.[^footnote3] Not only that, it was also mentioned as an extension that violated the Firefox standards by Krono in the post that inspired this investigation.[^footnote4]
+
+I have examined Tabliss Extension, but found no violations or unexpected functions hidden within.
