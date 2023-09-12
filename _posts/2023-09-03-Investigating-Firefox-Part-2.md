@@ -106,41 +106,6 @@ This fetches the user's email address from a HTML document (with the auth token 
 
 All in all, with such a massive size this extension was quite hard to analyze, and it appears to load a sentry SDK which can be used for error tracking. However, the Sentry Vue documentation also states that it may be used to "capture the user and gain critical pieces of information that construct a unique identity".[^footnote2] With profitwell, remote javascript is loaded and injected for user analytics tied to a registered email. At the very least, it pulls remote javascript and does not allow the user to opt-out of non-necessary data collection, which is a clear violation of the recommended extensions policy.  
 
-# Afterword
-![Developer Excuses](https://raw.githubusercontent.com/ColoursofOSINT/ColoursofOSINT.github.io/6faf08296b6555ec0817598bf0bf68b9f4a31635/assets/img/images/Lmao.png)
-
-One of the most interesting pieces of code that I stumbled across sent out a request for "developer excuses".
-
-```
-;(async function (e, t) {
-  e.push();
-  const n =
-    t === 'developerexcuses'
-      ? await (async function () {
-          try {
-            const response = await fetch('https://api.tabliss.io/v1/developer-excuses');
-            return { quote: (await response.json()).data };
-          } catch (error) {
-            return { quote: 'Unable to get a new developer excuse.' };
-          }
-        })()
-      : undefined; //
-})();
-```
-The API for Tabliss randomly returns excuses, with such gems as:
-
-1. "I have too many other high priority things to do right now"
-2. "That code seemed so simple I didn't think it needed testing"
-3. "Our redundant systems must have failed as well"
-
-
-Click here for [more](https://api.tabliss.io/v1/developer-excuses).
-
-Even more interesting was the site it request the excuses from "tabliss.io". This is the homepage for the Tabliss extension, which is also a recommended extension.[^footnote3] Not only that, it was also mentioned as an extension that violated the Firefox standards by Krono in the post that inspired this investigation.[^footnote4]
-
-I have examined Tabliss Extension, but found no violations or unexpected functions hidden within.
 
 [^footnote1]: [https://addons.mozilla.org/en-US/firefox/addon/youtube-subscription-groups/privacy/](https://addons.mozilla.org/en-US/firefox/addon/youtube-subscription-groups/privacy/)
 [^footnote2]: [https://docs.sentry.io/platforms/javascript/guides/vue/](https://docs.sentry.io/platforms/javascript/guides/vue/)
-[^footnote3]: [https://tabliss.io/](https://tabliss.io/)
-[^footnote4]: [https://news.ycombinator.com/item?id=37137552](https://news.ycombinator.com/item?id=37137552)
