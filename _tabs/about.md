@@ -3,7 +3,12 @@
 icon: fas fa-info-circle
 order: 4
 ---
-This is my personal website. I am interested in OSINT, FOSS and cybersecurity.
+This is my personal website. 
+
+- 💻 Contributing to free (as in freedom) and open-source software
+- 🔒 Interested in privacy and security   
+- 🏫 Majoring in Biochemistry
+- 📫 Reach me by [email](mailto:coloursofosint@coloursofosint.com)
 
 Here are some of the websites I visit the most:
 
