@@ -17,3 +17,5 @@ Here are some of the websites I visit the most:
 3. [Krebs on Security](https://krebsonsecurity.com/)
 4. [Tales from Kagi](https://blog.kagi.com)
 5. [Stacker News](https://stacker.news/)
+
+ [![My GitHub Stats](https://github-readme-stats.vercel.app/api/?username=ColoursofOSINT&count_private=true&theme=tokyonight&showicons=true)]() 
