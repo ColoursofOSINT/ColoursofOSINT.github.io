@@ -68,7 +68,7 @@ sudo rm -ir /Library/Application Support/Cold Turkey
 Make another admin account and run the following as that user:
 
 ```
-sudo chflags nouchg /Applications/Cold\ Turkey\ Blocker.app
+sudo chflags uchg /Applications/Cold\ Turkey\ Blocker.app
 ```
 ```
 sudo chflags uchg /Library/Application\ Support/Cold\ Turkey
