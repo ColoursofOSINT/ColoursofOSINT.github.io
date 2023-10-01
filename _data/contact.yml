@@ -7,16 +7,13 @@
   icon: 'fab fa-mastodon'
   url:  'https://infosec.exchange/@ColoursofOSINT' 
 
-# - type: twitter
-#  icon: "fab fa-twitter"
-
 - type: email
   icon: "fas fa-envelope"
   noblank: true # open link in current tab
 
 - type: blank
-  icon: ''
-  noblank: true
+  icon: 'square-hacker-news'
+  url:  'https://news.ycombinator.com/user?id=ColoursofOSINT' 
   
 - type: rss
   icon: "fas fa-rss"
@@ -42,3 +39,6 @@
 # - type: stack-overflow
 #   icon: 'fab fa-stack-overflow'
 #   url:  ''                  # Fill with your stackoverflow homepage
+# - type: twitter
+#  icon: "fab fa-twitter"
+
