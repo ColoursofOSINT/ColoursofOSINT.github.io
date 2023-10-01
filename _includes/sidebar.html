@@ -87,7 +87,7 @@
           {% endunless %}
 
           {% if entry.type == 'mastodon' %}
-            {% assign link_types = link_types | append: ' me' | strip %}
+            {% assign link_types = link_types | append: 'me' | strip %}
           {% endif %}
 
           {% unless link_types == empty %}
