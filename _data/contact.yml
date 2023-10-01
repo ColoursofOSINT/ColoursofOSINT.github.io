@@ -23,7 +23,7 @@
   url:  'https://gitlab.com/ColoursofOSINT' 
 
 - type: hacker news 
-  icon: 'hacker-news'
+  icon: 'fa-brands fa-square-hacker-news'
   url:  'https://news.ycombinator.com/user?id=ColoursofOSINT' 
 # Uncomment and complete the url below to enable more contact options
 #
