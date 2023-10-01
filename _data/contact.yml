@@ -16,7 +16,8 @@
 
 - type: blank
   icon: ''
-
+  noblank: true
+  
 - type: rss
   icon: "fas fa-rss"
   noblank: true
