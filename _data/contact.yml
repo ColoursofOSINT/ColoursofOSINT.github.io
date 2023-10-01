@@ -15,6 +15,7 @@
   noblank: true # open link in current tab
 
 - type: blank
+  icon: ''
 
 - type: rss
   icon: "fas fa-rss"
