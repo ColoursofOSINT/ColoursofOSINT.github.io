@@ -17,6 +17,10 @@
 - type: rss
   icon: "fas fa-rss"
   noblank: true
+
+- type: gitlab
+  icon: 'fab fa-gitlab'
+  url:  'https://gitlab.com/ColoursofOSINT' 
 # Uncomment and complete the url below to enable more contact options
 #
 # - type: mastodon
