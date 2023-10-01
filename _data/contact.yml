@@ -5,7 +5,7 @@
 
 - type: mastodon
   icon: 'fab fa-mastodon'
-  url:  'https://infosec.exchange/@ColoursofOSINT' 
+  url:  '<a rel="me" href="https://infosec.exchange/@ColoursofOSINT">Mastodon</a>' 
 
 # - type: twitter
 #  icon: "fab fa-twitter"
