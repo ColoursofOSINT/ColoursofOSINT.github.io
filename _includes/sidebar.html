@@ -81,13 +81,13 @@
           aria-label="{{ entry.type }}"
           {% assign link_types = '' %}
 
-          {% unless entry.noblank %}
+         {% unless entry.noblank %}
             target="_blank"
-            {% assign link_types = 'noopener noreferrer' %}
+            {% assign link_types = '' %}
           {% endunless %}
 
           {% if entry.type == 'mastodon' %}
-            {% assign link_types = link_types | append: ' me' | strip %}
+            {% assign link_types = link_types | append: 'me' | strip %}
           {% endif %}
 
           {% unless link_types == empty %}
