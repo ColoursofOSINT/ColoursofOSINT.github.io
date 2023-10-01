@@ -13,7 +13,7 @@
 
 - type: blank
   icon: 'square-hacker-news'
-  url:  'https://news.ycombinator.com/user?id=ColoursofOSINT' 
+  url:  '' 
   
 - type: rss
   icon: "fas fa-rss"
