@@ -3,6 +3,10 @@
 - type: github
   icon: "fab fa-github"
 
+- type: mastodon
+  icon: 'fab fa-mastodon'
+  url:  'https://infosec.exchange/@ColoursofOSINT' 
+
 # - type: twitter
 #  icon: "fab fa-twitter"
 
